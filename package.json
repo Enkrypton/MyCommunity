@@ -1,0 +1,27 @@
+{
+  "name": "googlecal",
+  "version": "0.0.1",
+  "author": "omega12 <omegalink12@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "actions-on-google": "^1.7.0",
+    "geohasher": "0.0.1",
+    "lib": "^3.0.1"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "omega12/GoogleCal",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "description": ""
+}
